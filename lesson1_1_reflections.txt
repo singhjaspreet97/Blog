@@ -1,0 +1,8 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+- It gave me an easy way to find the difference of two files without having look at it line by line.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+- I can see my revisions easily, and if I need to revert back to a certain version, that can be easily done.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+If we're using a version control system to keep track the changes for tracking changes, Git's commit would make more sense, since we can compare and revert. However, if you're just needing it to revert to previos version, or making sure the new modification are saved, Google doc is great.
