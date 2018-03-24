@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFCC">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to my Blog"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:gravity="center"/>
+
+    <EditText
+        style="@style/Authentication_EditText"
+        android:id="@+id/username"
+        android:hint="@string/et_username_hint" />
+
+    <EditText
+        style="@style/Authentication_EditText"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:hint="@string/et_password_hint" />
+
+    <Button
+        style="@style/Authentication_Button"
+        android:id="@+id/signInButton"
+        android:text="@string/btn_sign_in"
+        android:layout_width="140dp" />
+
+    <Button
+        style="@style/Authentication_Button"
+        android:id="@+id/registerButton"
+        android:text="@string/btn_register"
+        android:layout_width="160dp" />
+</LinearLayout>
